@@ -1,17 +1,17 @@
-/* Reset */
+
 body {
   margin: 0;
   font-family: 'Montserrat', sans-serif;
-  background: #fdf6ec; /* bege elegante */
+  background: #fdf6ec; 
   color: #333;
   line-height: 1.6;
 }
 
-/* Cabeçalho */
+
 header {
   text-align: center;
   padding: 50px 20px;
-  background: #8b1e3f; /* vinho */
+  background: #8b1e3f; 
 }
 
 header h1 {
@@ -27,14 +27,14 @@ header p {
   color: #fdf6ec;
 }
 
-/* Container */
+
 .container {
   width: 1100px;
   max-width: 95%;
   margin: 60px auto;
 }
 
-/* Seções */
+
 section {
   margin-bottom: 70px;
 }
@@ -42,7 +42,7 @@ section {
 section h2 {
   text-align: center;
   font-size: 2rem;
-  color: #556b2f; /* verde oliva */
+  color: #556b2f; 
   margin-bottom: 40px;
   font-family: 'Playfair Display', serif;
   position: relative;
@@ -53,19 +53,19 @@ section h2::after {
   display: block;
   width: 70px;
   height: 3px;
-  background: #c59d5f; /* dourado */
+  background: #c59d5f; 
   margin: 12px auto 0;
   border-radius: 2px;
 }
 
-/* Grid */
+
 .grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   gap: 25px;
 }
 
-/* Card */
+
 .card {
   background: #fff;
   border-radius: 14px;
@@ -93,7 +93,7 @@ section h2::after {
   margin: 10px 0;
   font-family: 'Playfair Display', serif;
   font-size: 1.3rem;
-  color: #8b1e3f; /* vinho */
+  color: #8b1e3f; 
 }
 
 .card p {
@@ -103,7 +103,7 @@ section h2::after {
 }
 
 .card .preco {
-  background: #c59d5f; /* dourado */
+  background: #c59d5f; 
   color: #fff;
   padding: 6px 12px;
   border-radius: 8px;
@@ -111,7 +111,7 @@ section h2::after {
   font-size: 1rem;
 }
 
-/* Rodapé */
+
 footer {
   text-align: center;
   padding: 25px;
